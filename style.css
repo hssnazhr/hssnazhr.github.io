@@ -70,7 +70,7 @@ nav a:hover {
 .profile-photo {
     width: 100%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 25%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the photo */
 }
 
