@@ -41,6 +41,39 @@ nav a:hover {
     font-size: 1.2em;
 }
 
+/* About Section */
+.about-section {
+    background-color: #e0e4f5; /* Lighter shade to complement the hero section */
+    margin: 50px auto;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-photo {
+    flex: 0 0 200px; /* Fixed width for the photo */
+}
+
+.profile-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the photo */
+}
+
 /* Content Sections */
 section {
     margin: 50px auto;
@@ -59,3 +92,4 @@ footer {
     padding: 15px;
     margin-top: 50px;
 }
+
